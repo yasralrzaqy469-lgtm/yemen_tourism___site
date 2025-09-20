@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    /*background-color: #e3a85e;*/
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    direction: rtl;
+    gap: 20px;
+      max-width: 100%;
+  overflow-x: hidden;
+
+}
+
+.main_title{
+    background-color: #656060;
+   padding: 20px 0;
+    color: #f8a135;
+}
+
+
+nav{
+    padding: 5px 0;
+    background-color: #817c7c;
+    width: 100%;
+    display: flex;
+      justify-content:flex-end;
+}
+nav ul{
+    display: flex;
+    flex-direction: row-reverse;
+       width: 100%;
+
+      justify-content:space-evenly;
+    list-style-type: none;
+
+}
+li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li a:hover{
+ text-decoration: #ecadad underline;
+    color: #f6d1a3;
+
+}
+
+.search{
+    text-align: start;
+    margin: 20px;
+    color: #15363e;
+    width: 100%;
+}
+.search input{
+    width: 40%;
+    height: 30px;
+}
+
+.search button{
+    height: 30px;
+  border-radius: 4px;
+}
+
+.map{
+    width: 100%;
+    height: 100vh;
+}
+
+.map img{
+    width: 100%;
+    height: 100%;
+
+;
+}
+.cards {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    /*background-color: #ecadad;*/
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-template-rows:repeat(2,1fr) ;
+    gap: 0;
+    column-gap: 35px;
+
+}
+
+
+.card h1{
+      padding: 10px;
+}
+
+.card a img{
+
+       height: 30%;
+    width: 100%;
+   border-radius: 20px 0 0 0;/
+    filter: blur(2px);
+    transition:0.5s;
+
+}
+
+.card a img:hover{
+        filter: blur(0);
+   transform: scale(1.2);
+
+}
+
+.foods{
+  display: grid;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    /*background-color: #ecadad;*/
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 10px;
+    column-gap: 35px;
+}
+.foods img {
+
+    height: 50%;
+    width: 100%;
+    border-radius: 20px 0 0 0;
+
+    transition: 0.5s;
+}
+
+
+.foods img:hover{
+        filter: blur(0);
+   transform: scale(1.2);
+
+}
+.food-card{
+
+    /*width: 50%;*/
+    /*background-color: #c8afaf;*/
+ /*margin: 30px 5px 0;*/
+ /*   border: #222222 solid 2px;*/
+ /*   border-radius: 20px 0  20px 0;*/
+
+
+}
+
