@@ -1,0 +1,194 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #15363e;
+    color: #F2A680;
+
+  max-width: 100%;
+  overflow-x: hidden;
+
+
+}
+
+header{
+    margin: 10px 0;
+    text-align: center;
+
+}
+
+
+nav{
+    padding: 5px 0;
+    background-color: #817c7c;
+    width: 100%;
+    display: flex;
+      justify-content:flex-end;
+}
+nav ul{
+    display: flex;
+    flex-direction: row-reverse;
+       width: 100%;
+
+      justify-content:space-evenly;
+    list-style-type: none;
+
+}
+li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li a:hover{
+ text-decoration: #ecadad underline;
+    color: #f6d1a3;
+
+}
+
+
+
+#sec1 h1{
+    background-color: #42cdf1;
+    color: #222222;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+
+
+#sec2{
+      height: 100vh;
+    width: 100%;
+    padding: 20px;
+     display: flex;
+    flex-direction: column;
+}
+
+#sec2 div {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+
+}
+#sec2 div .places_liver{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.places_liveh{
+     background-color: #42cdf1;
+    text-align: center;
+    color: #222222;
+    padding: 15px;
+
+}
+.places_liver h3{
+    margin: 20px;
+    line-height: 50px;
+    color: #42cdf1;
+}
+.places_liver ul li{
+      line-height: 30px;
+    color: #dfeaf4;
+
+
+}
+
+#sec3{
+    display: flex;
+    flex-direction: column;
+    background-color: #42cdf1;
+    wrap-option: wrap;
+}
+
+#sec3 h1{
+    padding: 10px 0;
+    text-align: center;
+    color: #222222;
+    /*margin: 10px 0;*/
+    /*background-color: #8a817c;*/
+}
+
+.hostirqal{
+    margin: 10px 0;
+    background-color: cyan;
+    height:fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    wrap-option: wrap;
+
+}
+
+.group{
+    background-color: #dfeaf4;
+    display: flex;
+     flex-direction: row;
+    wrap-option: wrap;
+
+}
+
+
+.hostirqal .hostiq{
+    height: 550px;
+    width: 400px;
+    background-color: rgba(230, 266, 266, 0.69);
+    margin: 30px 15px;
+    flex-direction: row;
+    wrap-option: wrap;
+     text-align: center;
+    color: darkorange;
+    border: #2F98B3 1px solid;
+      border-radius: 10px;
+    background-size: auto;
+}
+section img {
+    width: 99%;
+    height: 40%;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+.hostirqal .hostiq p{
+  padding: 5px;
+}
+.hostirqal .hostiq h3{
+    margin: 10px;
+}
+
+.sec4{
+    background-color: #FFFFFF;
+}
+
+.hostiq  section img:hover{
+    transition:0.5s;
+    transform: scale(1.1);
+}
+
