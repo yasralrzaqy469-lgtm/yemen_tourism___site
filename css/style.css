@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    /*background-color:lightseagreen ;*/
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    color: #f49c2f;
+
+  max-width: 100%;
+  overflow-x: hidden;
+
+
+
+}
+
+header{
+    display: flex;
+  background-color: #575453;
+    height: 5%;
+    text-align: center;
+
+ justify-content:space-evenly;
+}
+.logo{
+    margin: -15px 0 10px 0;
+}
+
+
+
+nav{
+    padding: 5px 0;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+      justify-content:flex-end;
+}
+nav ul{
+    display: flex;
+    flex-direction: row-reverse;
+       width: 60%;
+    /*background-color: blueviolet;*/
+      justify-content:space-evenly;
+    list-style-type: none;
+
+}
+li a{
+    text-decoration: none;
+    color: #222222;
+}
+
+li a:hover{
+ text-decoration: slategray underline;
+    color: darkorange;
+}
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+    /*background-color: #3d154c;.*/
+    height: 70%;
+    margin-top: 10px;
+
+}
+
+.sec2{
+   display: flex;
+    /*background-color: #c55e5e;*/
+    height: 100%;
+    width:62% ;
+    margin-right: 5px;
+/*border: solid 1px #30a8a4;*/
+/*    border-radius: 20px;*/
+}
+
+.wowslider-container1{
+    border: solid 1px #30a8a4;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+
+.sec1{
+    direction: rtl;
+   /*display: flex;*/
+   /* background-color: #5183d1;*/
+    height: 100%;
+    width:35% ;
+    overflow: auto;
+    font-size: 20px;
+    padding: 5px;
+    border: solid 1px #30a8a4;
+    border-radius: 20px;
+    color: #101415;
+}
+
+.sec1 h1{
+    margin: 10px 0 20px ;
+}
+
+
+
+
+
+footer{
+    text-align: center;
+  background-color: #575453;
+     height: 5%;
+    width:100% ;
+      margin-top: 20px;
+    padding: 7px 0 0 0;
+
+}
+
+
+
+
+
